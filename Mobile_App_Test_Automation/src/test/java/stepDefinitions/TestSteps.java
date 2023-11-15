@@ -62,4 +62,89 @@ public class TestSteps {
     public void clickTheCreateButton() {
       testingApp.Create().click();
     }
+
+    @And("there is a to-do item with text {string}")
+    public void thereIsAToDoItemWithText(String arg0) {
+
+    }
+
+    @Given("the user is on the to-do app homepage")
+    public void theUserIsOnTheToDoAppHomepage() {
+
+    }
+
+    @When("the user marks the to-do item with text {string} as completed")
+    public void theUserMarksTheToDoItemWithTextAsCompleted(String arg0) {
+
+    }
+
+    @Then("the to-do item with text {string} should be marked as completed in the to-do list")
+    public void theToDoItemWithTextShouldBeMarkedAsCompletedInTheToDoList(String arg0) {
+
+    }
+
+    @Then("the to-do item with text {string} should be removed from the to-do list")
+    public void theToDoItemWithTextShouldBeRemovedFromTheToDoList(String arg0) {
+
+    }
+
+    @When("the user deletes the to-do item with text {string}")
+    public void theUserDeletesTheToDoItemWithText(String arg0) {
+
+    }
+
+    @When("the user views the to-do list")
+    public void theUserViewsTheToDoList() {
+
+    }
+
+    @Then("all existing to-do items should be displayed")
+    public void allExistingToDoItemsShouldBeDisplayed() {
+
+    }
+
+    @Then("only completed to-do items should be displayed")
+    public void onlyCompletedToDoItemsShouldBeDisplayed() {
+        
+    }
+
+    @When("the user views the completed to-do items")
+    public void theUserViewsTheCompletedToDoItems() {
+    }
+
+    @When("the user views the active to-do items")
+    public void theUserViewsTheActiveToDoItems() {
+    }
+
+    @Then("only active \\(not completed) to-do items should be displayed")
+    public void onlyActiveNotCompletedToDoItemsShouldBeDisplayed() {
+    }
+
+    @When("the user edits the to-do item with text {string} to {string}")
+    public void theUserEditsTheToDoItemWithTextTo(String arg0, String arg1) {
+    }
+
+    @Then("the to-do item with text {string} should be displayed in the to-do list")
+    public void theToDoItemWithTextShouldBeDisplayedInTheToDoList(String arg0) {
+    }
+
+    @And("the to-do item with text {string} should not be present in the to-do list")
+    public void theToDoItemWithTextShouldNotBePresentInTheToDoList(String arg0) {
+    }
+
+    @When("the user clears all completed to-do items")
+    public void theUserClearsAllCompletedToDoItems() {
+    }
+
+    @Then("no completed to-do items should be present in the to-do list")
+    public void noCompletedToDoItemsShouldBePresentInTheToDoList() {
+    }
+
+    @When("the user sets a due date {string} for the to-do item with text {string}")
+    public void theUserSetsADueDateForTheToDoItemWithText(String arg0, String arg1) {
+    }
+
+    @Then("the to-do item with text {string} should display the due date {string}")
+    public void theToDoItemWithTextShouldDisplayTheDueDate(String arg0, String arg1) {
+    }
 }
