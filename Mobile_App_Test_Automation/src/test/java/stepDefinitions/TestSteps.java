@@ -105,7 +105,7 @@ public class TestSteps {
 
     @Then("only completed to-do items should be displayed")
     public void onlyCompletedToDoItemsShouldBeDisplayed() {
-        
+
     }
 
     @When("the user views the completed to-do items")
